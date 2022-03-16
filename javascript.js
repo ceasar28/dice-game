@@ -90,6 +90,9 @@ else{
  if(player1Score >player2Score ){
  document.querySelector("h1").innerHTML= player1Name + " wins 🚩🚩💥";
 }
+ else if(player1Score===player2Score){
+ document.querySelector("h1").innerHTML="Draw";
+}
 else{
  document.querySelector("h1").innerHTML="Computer wins 🚩🚩💥";
 }
